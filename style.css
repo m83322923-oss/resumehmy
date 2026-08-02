@@ -1,0 +1,366 @@
+body{
+  background:
+    radial-gradient(1400px 600px at 20% 10%, rgba(18, 65, 236, 0.25), transparent 55%);
+direction: rtl;
+
+}
+.dark-mode{
+              background-color: #000000; /* رنگ پس‌زمینه تیره */
+            color: #ffffff; /* رنگ متن تیره */
+
+}
+.d1{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 90px;
+
+}
+
+
+.b1{
+  display: inline-block;
+  cursor: pointer;
+ 
+  color: #fff;
+  background-color: #2774df;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-right:1200px;
+  width: 250px;
+  height:30px;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid rgb(84, 84, 217);
+
+}
+.b1:active{
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.about{
+  font-family: 'fontabout';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: ltr; /* باعث می‌شود عکس چپ و متن راست باشد */
+    gap: 40px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.pic{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about1{
+    font-family: 'fontabout';
+    direction: rtl; /* متن فارسی درست نمایش داده شود */
+    text-align: right;
+    flex: 1;
+}
+.navi{
+  background-color: #457cc8;
+
+   position: fixed;
+   top: 0px;
+}
+.aai{
+  color: #999;
+}
+.btn1{
+
+  margin-right: 120px;
+}
+.skills{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 90px;
+    margin-bottom: 20px;
+
+
+}
+.skill{
+  font-size: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pro{
+font-size: 30px;
+
+}
+.ani{
+  animation: progress1 4s forwards;
+}
+.ani2{
+  animation: progress2 4s forwards;
+}
+.ani3{
+  animation: progress3 4s forwards;
+}
+.ani4{
+  animation: progress4 4s forwards;
+}
+.projects{
+  margin-top: 50px;
+  text-align: center;
+
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c1{
+  margin-top: 10px;
+  float: left;
+  margin-left: 15px;
+  width: 400px;
+  font-family: 'fontabout';
+  border-radius: 15px;
+}
+.c2{
+  margin-top: 10px;
+  float: left;
+  margin-left: 130px;
+  width: 400px;
+  font-family: 'fontabout';
+  border-radius: 15px;
+}
+.c3{
+   margin-top: 10px;
+  float: left;
+  margin-left:135px;
+  width: 400px;
+  font-family: 'fontabout';
+  border-radius: 15px; 
+}
+.c4{
+    margin-top: 10px;
+  float: right;
+margin-right: 31px;
+  width: 400px;
+  font-family: 'fontabout';
+  border-radius: 15px;
+}
+.c5{
+    margin-top: 10px;
+  float: right;
+margin-right: 135px;
+  width: 400px;
+  font-family: 'fontabout';
+  border-radius: 15px;
+}
+.theme{
+  bottom: 0px;
+  right: 20px;
+  display: block;
+  position:fixed;
+}
+
+body{
+    background:#f4f6f9;
+    font-family:sans-serif;
+}
+
+.contact{
+    max-width:500px;
+    margin:40px auto;
+    padding:30px;
+    background:#fff;
+    border-radius:18px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.1);
+}
+
+.contact h2{
+    text-align:center;
+    margin-bottom:10px;
+    color:#222;
+}
+
+.contact p{
+    text-align:center;
+    color:#666;
+    margin-bottom:20px;
+}
+
+.contact form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact input,
+.contact textarea{
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.contact input:focus,
+.contact textarea:focus{
+    outline:none;
+    border-color:#4a90e2;
+}
+
+.contact textarea{
+    min-height:140px;
+    resize:vertical;
+}
+
+.contact button{
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#4a90e2;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact button:hover{
+    background:#357abd;
+}
+@media(max-width:400px){
+.pic{
+  
+margin-right:75px;
+  width: 250px;
+  height:300px;
+  margin-top: 18%;
+  animation: pic 4s infinite;
+}
+.b1{
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2774df;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-right:75px;
+  width: 250px;
+  height:30px;
+
+  border-radius: 10px;
+  border: 2px solid rgb(84, 84, 217);
+
+}
+.b1:active{
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.about{
+  font-family: 'fontabout';
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.pic{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about1{
+    font-family: 'fontabout';
+    /* متن فارسی درست نمایش داده شود */
+    
+    flex: 1;
+}
+.btn1{
+
+  margin-right: 40%;
+}
+.navi{
+  position: fixed;
+}
+}
+@keyframes pic {
+   0%{
+    opacity: 1;
+   }
+   50%{
+    opacity: 0.5;
+   }
+   100%{
+    opacity: 1;
+   }
+}
+@keyframes progress1 {
+  0%{
+    font-size: 30px;
+    height: 40px;
+    width: 0%;
+  }
+  50%{
+    font-size: 30px;
+    height: 40px;
+    width: 50%;
+  }
+  100%{
+    font-size: 30px;
+    height: 40px;
+    width: 90%;
+  }
+}
+@keyframes progress2 {
+  0%{
+    font-size: 30px;
+    height: 40px;
+    width: 0%;
+  }
+  50%{
+    font-size: 30px;
+    height: 40px;
+    width: 35%;
+  }
+  100%{
+    font-size: 30px;
+    height: 40px;
+    width: 70%;
+  }
+}
+@keyframes progress3 {
+  0%{
+    font-size: 30px;
+    height: 40px;
+    width: 0%;
+  }
+  50%{
+    font-size: 30px;
+    height: 40px;
+    width: 25%;
+  }
+  100%{
+    font-size: 30px;
+    height: 40px;
+    width: 50%;
+  }
+}
+@keyframes progress4 {
+  0%{
+    font-size: 30px;
+    height: 40px;
+    width: 0%;
+  }
+  50%{
+    font-size: 30px;
+    height: 40px;
+    width: 35%;
+  }
+  100%{
+    font-size: 30px;
+    height: 40px;
+    width: 75%;
+  }
+}
+@font-face {
+  font-family: 'fontabout';
+  src: url('about.TTF');
+}
